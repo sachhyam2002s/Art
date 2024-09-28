@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+	
+<body>
+	<nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.png" alt="Logo"></div>
+            <div class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="Art.html">Art World</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <li><a href="Learn.html">About</a></li>
+            <li><a href="Register.html">Form</a></li>
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </ul>    
+    </nav>
+	
+	<div class="registration-form">
+		<h1>Registration Form</h1>
+		
+		<form action="#" method="post" enctype="multi part/form-data">
+				<p>Full Name:</p>
+				<input type="text" name="fullname" placeholder="Full Name">
+				<p>User Name:</p>
+				<input type="text" name="username" placeholder="User Name">
+				<p>Age:</p>
+				<input type="number" name="number" placeholder="Age">
+				<p>Gender:</p>
+						<input type="radio" name="gender" id="male" checked="checked">Male
+						<input type="radio" name="gender" id="female" checked="checked">Female
+						<input type="radio" name="gender" id="other" checked="checked">Other<br>
+				<p>Phone Number:</p>
+				<input type="number" name="number" placeholder="Number">
+				<p>E-mail:</p>
+				<input type="text" name="email" placeholder="E-mail"><br>
+				<p>Password:</p>
+				<input type="password" name="password" placeholder="Password"><br>
+				<button type="submit">Register</button>
+		</form>
+	</div>
+</body>
+</html>
